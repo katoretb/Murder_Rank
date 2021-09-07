@@ -1,0 +1,47 @@
+mysql:
+    host: "localhost"
+    port: 3306
+    dbname: "mylove"
+    user: "root"
+    password: ""
+    table: "playerstats"
+
+table:
+    #row you save player name
+    playername: "name"
+    #row you save player kill
+    killrow: "kills"
+    #row you save player win
+    winrow: "wins"
+    #row you save player score
+    scorerow: "highestscore"
+    #row you save player roundplayed
+    roundrow: "gamesplayed"
+    
+kill:
+    world: "world"
+    x: 27.5
+    y: 29.5
+    z: -7.5
+    title: "&6ฆ่ามากที่สุด"
+    
+win:
+    world: "world"
+    x: 30.5
+    y: 29.5
+    z: -6.5
+    title: "&6ชนะมากที่สุด"
+    
+score:
+    world: "world"
+    x: 30.5
+    y: 29.5
+    z: 3.5
+    title: "&6คะแนนมากที่สุด"
+    
+played:
+    world: "world"
+    x: 27.5
+    y: 29.5
+    z: 4.5
+    title: "&6เล่นมากที่สุด"
